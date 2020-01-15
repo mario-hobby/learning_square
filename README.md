@@ -43,6 +43,13 @@ You can take a look at some of the results by running:
 python show_square_predictions.py -i validate -m ./square_detector.pth -n 5
 ```
 
+Depending on how much training you put on it, you will get better results than the
+one I pasted below, showing an output after 4 epochs of training on a 1K generated dataset.
+It achieved a running loss of about 20.
+<p align="center">
+    <img src="sample_output.jpg" width="600"\>
+ </p>
+ 
 That's it. Time to play.
 
 <p align="center">
