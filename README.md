@@ -10,7 +10,7 @@ With the script create_rand_images.py I create training and test images like the
 one below, accompanied by a csv file that describes the coordinates of the test
 square in the image.
 
-Below is a sample result:
+Below is a random sample created byt the script:
 <p align="center">
     <img src="square1.jpg" width="600"\>
  </p>
