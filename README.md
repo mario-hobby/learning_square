@@ -50,7 +50,7 @@ It achieved a running loss of about 20 after running for hours on CPU).
     <img src="sample_output.jpg" width="600"\>
  </p>
  
-On GPU it managed to get better results (~3 running loss) in under half an hour of training
+On GPU it managed to get better results (~5 running loss) in under half an hour of training
 (25 epochs on 1k dataset).
 
 That's all I got here. Want to try it? Pull and run.
