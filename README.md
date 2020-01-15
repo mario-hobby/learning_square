@@ -1,4 +1,4 @@
-# Teaching a Pytorch Neural Network to find a square
+# Teaching a Pytorch Neural Network to find the blue square
 
 With these pytorch scripts I create training data of a blue square of varying
 sizes planted in a 'noise' image, and train a raw neural network to try to learn
@@ -44,13 +44,16 @@ python show_square_predictions.py -i validate -m ./square_detector.pth -n 5
 ```
 
 Depending on how much training you put on it, you will get better results than the
-one I pasted below, showing an output after 4 epochs of training on a 1K generated dataset.
-It achieved a running loss of about 20.
+one I pasted below (showing an output after 4 epochs of training on a 1K generated dataset.
+It achieved a running loss of about 20 after running for hours on CPU).
 <p align="center">
     <img src="sample_output.jpg" width="600"\>
  </p>
  
-That's it. Time to play.
+On GPU it managed to get better results (~3 running loss) in under half an hour of training
+(25 epochs on 1k dataset).
+
+That's all I got here. Want to try it? Pull and run.
 
 <p align="center">
     <img src="zima_blue.jpg" width="1600"\>
