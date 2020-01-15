@@ -18,7 +18,6 @@ import torch.nn.functional as F
 import torch.optim as optim
 import time
 
-# Bigger net
 class Net(nn.Module):
     def __init__(self):
         super(Net, self).__init__()
